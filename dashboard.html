@@ -50,6 +50,7 @@
       <a href="#" onclick="showSection('addPlayerSection')">Add Player</a>
       <a href="#" onclick="showSection('addTeamSection')">Add Team</a>
       <a href="#" onclick="showSection('addPlayerToTeamSection')">Add Player to Team</a>
+      <a href="#" onclick="showSection('manageTeamsSection')">Manage Teams</a>
       <a href="#" onclick="showSection('playersListSection')">Players List</a>
       <a href="#" onclick="showSection('contactSection')">Contact Info</a>
       <a href="#" onclick="showSection('sponsorSection')">Sponsors</a>
@@ -74,6 +75,7 @@
       <div class="section" id="playersListSection">
         <h2>Players List</h2>
         <div class="image-container">
+          <img src="https://via.placeholder.com/150" alt="Kabaddi Tournament Logo">
         </div>
         <ul id="playersList"></ul>
       </div>
@@ -96,6 +98,11 @@
           <select id="playerSelect" required></select>
           <button type="submit">Add Player to Team</button>
         </form>
+      </div>
+
+      <div class="section" id="manageTeamsSection">
+        <h2>Manage Teams</h2>
+        <div id="teamDetailsList"></div>
       </div>
 
       <div class="section" id="contactSection">
